@@ -4,10 +4,6 @@ import SEngine.Components.Board;
 import SEngine.Components.Brick;
 import SEngine.Types.Animation;
 
-/**
- * Klasa BrickAnimation jest odpowiedzialna za końcową animację w grze.
- */
-
 public class EndGameAnimation extends Animation {
     static final int ANIMATION_STEPS = Board.BRICKS_IN_COL;
     static final int ANIMATION_INTERVAL = 200;

@@ -5,10 +5,6 @@ import SEngine.Types.ImagePanel;
 
 import java.util.Random;
 
-/**
- * Klasa Logo jest odpowiedzialna za stworzenie obszaru wyświetlającego logo, wyświetlenie go oraz animowanie.
- */
-
 public class Logo extends Actor {
     public enum LogoColor {
         Blank(0),

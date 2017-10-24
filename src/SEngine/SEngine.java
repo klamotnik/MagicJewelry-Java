@@ -10,11 +10,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.io.File;
 
-/**
- * Klasa SEngine jest najważniejszą klasą tego projektu.
- * Zostają tu wywołane "tick'nięcia", które odbierane i interpretowane są przez Actor, Animation oraz Level.
- **/
-
 public class SEngine implements ActionListener, KeyListener {
     private Window window;
     private Level currentLevel;
@@ -30,7 +25,7 @@ public class SEngine implements ActionListener, KeyListener {
     private void init() {
         GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
         try {
-            ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("font/xolonium.ttf")));
+            ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, this.getClass().getClassLoader().getResourceAsStream("font/xolonium.ttf")));
         } catch (Exception ex) {
 
         }

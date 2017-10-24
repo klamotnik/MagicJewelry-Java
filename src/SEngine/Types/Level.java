@@ -7,11 +7,6 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-/**
- * Klasa Level jest jednym z podstawowych "rozszerzeń" obiektów w aplikacji.
- * Level jest polem, na którym wyświetlani są aktorzy.
- */
-
 public abstract class Level extends JPanel implements Tickable, KeyListener {
     protected Level() {
         setSize(640, 480);

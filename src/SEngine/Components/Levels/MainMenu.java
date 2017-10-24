@@ -5,11 +5,6 @@ import SEngine.LevelManager;
 import SEngine.Types.Level;
 import SEngine.Types.MenuContainer;
 
-/**
- * Klasa MainMenu jest odpowiedzialna za wyświetlenie Loga oraz opcji jakie posiada gracz.
- * Deleguje do kolejnych level'i.
- */
-
 public class MainMenu extends Level {
     public MainMenu() {
         super();

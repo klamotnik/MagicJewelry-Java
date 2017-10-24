@@ -6,10 +6,6 @@ import SEngine.Types.Animation;
 
 import java.util.Collection;
 
-/**
- * Klasa BrickAnimation jest odpowiedzialna za animację klocków.
- */
-
 public class BrickAnimation extends Animation {
 
     static final int ANIMATION_STEPS = 18;

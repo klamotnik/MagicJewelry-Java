@@ -4,11 +4,6 @@ import java.awt.*;
 import java.io.File;
 import java.util.concurrent.Callable;
 
-/**
- * Klasa MenuElement jest pozycją na liście w menu.
- * Umożliwia przypisanie akcji po kliknięciu na pozycję.
- */
-
 public class MenuElement extends Actor {
     private String name;
     private String caption;

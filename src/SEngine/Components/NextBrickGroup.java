@@ -4,10 +4,6 @@ import SEngine.Types.Actor;
 
 import java.util.Random;
 
-/**
- * Klasa NextBrickGroup odpowiedzialna jest na wyświetlenie grupy kolejnych klocków, która zostanie dodana do gry.
- */
-
 public class NextBrickGroup extends Actor {
     private Brick[] nextBrickGroup;
 

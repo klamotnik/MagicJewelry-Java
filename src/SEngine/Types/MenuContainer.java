@@ -5,10 +5,6 @@ import java.awt.event.KeyEvent;
 import java.util.Arrays;
 import java.util.concurrent.Callable;
 
-/**
- * Klasa MenuContainer jest obszarem, w którym możemy dodawać elemnty menu, które może wybrać/aktywować gracz.
- */
-
 public class MenuContainer extends Actor {
     private MenuElement activeElement;
 

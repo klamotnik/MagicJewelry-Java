@@ -4,10 +4,6 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * FileHelper to klasa odpowiedzialna za komunikację z plikiem zawierającym wyniki gier.
- * Posiada 2 publiczne metody. Jedną odpowiedzialną za zapis danych, drugą za odczyt danych.
- */
 public class FileHelper {
 
     public static final String SCORE_TXT = "score.txt";
@@ -30,7 +26,16 @@ public class FileHelper {
         }
     }
 
+    public static FileWriter createScoreFileIfNecessary(){
+        try {
+            return new FileWriter(SCORE_TXT, true);
+        } catch(IOException ex) {
+            return null;
+        }
+    }
+
     public static ArrayList<String> readScoreFromFile() throws FileNotFoundException {
+        createScoreFileIfNecessary();
         Scanner s = new Scanner(new File(SCORE_TXT));
         ArrayList<String> list = new ArrayList<>();
         while (s.hasNext()) {

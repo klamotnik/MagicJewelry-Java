@@ -6,10 +6,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-/**
- * Klasa Animation jest bazą do utworzenia animacji w aplikacji.
- */
-
 public abstract class Animation implements Tickable {
     protected List<Actor> actorsToManipulation;
     private boolean pause;

@@ -4,16 +4,12 @@ import SEngine.Types.Actor;
 
 import java.awt.*;
 
-/**
- * Klasa InfoPanel jest odpowiedzialna za stowrzenie obszaru z danymi na temat aktualnego
- * stanu gry oraz jego aktualizację.
- */
-
 public class InfoPanel extends Actor {
     private int level;
     private int score;
     private int bricks;
     private boolean isGameOver;
+    private boolean isPaused;
 
     public InfoPanel(int x, int y) {
         super(x, y);
@@ -56,6 +52,11 @@ public class InfoPanel extends Actor {
         repaint();
     }
 
+    public void togglePauseMsg(){
+        isPaused = !isPaused;
+        repaint();
+    }
+
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
@@ -70,9 +71,14 @@ public class InfoPanel extends Actor {
         g2d.drawString("Level:", 20, 60);
         g2d.drawString(String.format("%1$d", level), 92, 60);
 
+        if (isPaused) {
+            g2d.setColor(Color.RED);
+            g2d.drawString("Pause", 50, 90);
+        }
+
         if (isGameOver) {
             g2d.setColor(Color.RED);
-            g2d.drawString("Game Over", 0, 80);
+            g2d.drawString("Game Over", 0, 90);
         }
 
     }

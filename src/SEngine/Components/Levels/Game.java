@@ -7,18 +7,13 @@ import SEngine.Utils.FileHelper;
 
 import java.awt.event.KeyEvent;
 
-/**
- * Klasa Game jest głównym level'em aplikacji.
- * Odpowiedzialna jest za utworzenie obszaru planszy oraz wyniku. Umożliwia sterowanie klockami
- */
-
 public class Game extends Level {
     private Logo logo;
     private NextBrickGroup nextBrickGroup;
     private Board board;
     private InfoPanel infoPanel;
-    private boolean pause;
     private static final int BRICKS_PER_LEVEL = 70;
+    private boolean pause;
     private boolean nextLevel;
     private boolean inARow;
     private int inARowCounter;
@@ -30,10 +25,6 @@ public class Game extends Level {
         add((nextBrickGroup = new NextBrickGroup(420, 315)));
         add((board = new Board(5, 5)));
         add((infoPanel = new InfoPanel(350, 180)));
-        pause = false;
-        nextLevel = false;
-        inARow = false;
-        inARowCounter = 0;
         setBoardFallingSpeed(1);
     }
 
@@ -42,48 +33,59 @@ public class Game extends Level {
         if (pause)
             return;
 
-        if (board.isBoardOverflowed()) {
-            infoPanel.setGameOverMsg();
-            nextBrickGroup.hide();
-            if (!isScoreSaved) {
-                FileHelper.saveScoreToFile(infoPanel.getScore(), infoPanel.getBricks());
-                isScoreSaved = true;
-            }
-        }
+        if (board.isBoardOverflowed())
+            performBoardOverflowAction();
 
-        if (board.needBricks()) {
-            if (!inARow) {
-                inARowCounter -= 3;
-                if (inARowCounter < 0)
-                    inARowCounter = 0;
-            } else
-                inARow = false;
-            if (nextLevel) {
-                nextLevel = false;
-                infoPanel.addLevel();
-                setBoardFallingSpeed(infoPanel.getLevel());
-                board.changeColor(Board.BoardColor.fromValue((infoPanel.getLevel()) % 8));
-                logo.changeColor(Logo.LogoColor.fromValue(infoPanel.getLevel() % 8 + 1));
-            }
-            if (shouldUseSpecialBricks()) {
-                board.obtainBricks(new Brick[]{
-                        new Brick(Brick.BrickColor.Special),
-                        new Brick(Brick.BrickColor.Special),
-                        new Brick(Brick.BrickColor.Special)});
-                nextLevel = true;
-            } else {
-                board.obtainBricks(nextBrickGroup.drawNextGroup());
-            }
-        }
+        if (board.needBricks())
+            performNeedBricksAction();
+
         Board.RemoveBricksInfo info = board.getRemoveBricksInfo();
-        if (info.removedBricks > 0) {
-            infoPanel.addBricks(info.removedBricks);
-            infoPanel.addPoints(computePoints(info.removedBricks, info.combo));
-            inARow = true;
-            if (inARowCounter < 10)
-                inARowCounter++;
-        }
+        if (info.removedBricks > 0)
+            updateGameState(info);
+
         super.tick(deltaTime);
+    }
+
+    private void performBoardOverflowAction() {
+        infoPanel.setGameOverMsg();
+        nextBrickGroup.hide();
+        if (!isScoreSaved) {
+            FileHelper.saveScoreToFile(infoPanel.getScore(), infoPanel.getBricks());
+            isScoreSaved = true;
+        }
+    }
+
+    private void performNeedBricksAction() {
+        if (!inARow) {
+            inARowCounter -= 3;
+            if (inARowCounter < 0)
+                inARowCounter = 0;
+        } else
+            inARow = false;
+        if (nextLevel) {
+            nextLevel = false;
+            infoPanel.addLevel();
+            setBoardFallingSpeed(infoPanel.getLevel());
+            board.changeColor(Board.BoardColor.fromValue((infoPanel.getLevel()) % 8));
+            logo.changeColor(Logo.LogoColor.fromValue(infoPanel.getLevel() % 8 + 1));
+        }
+        if (shouldUseSpecialBricks()) {
+            board.obtainBricks(new Brick[]{
+                new Brick(Brick.BrickColor.Special),
+                new Brick(Brick.BrickColor.Special),
+                new Brick(Brick.BrickColor.Special)});
+            nextLevel = true;
+        } else {
+            board.obtainBricks(nextBrickGroup.drawNextGroup());
+        }
+    }
+
+    private void updateGameState(Board.RemoveBricksInfo info) {
+        infoPanel.addBricks(info.removedBricks);
+        infoPanel.addPoints(computePoints(info.removedBricks, info.combo));
+        inARow = true;
+        if (inARowCounter < 10)
+            inARowCounter++;
     }
 
     private boolean shouldUseSpecialBricks() {
@@ -109,8 +111,10 @@ public class Game extends Level {
                 LevelManager.getInstance().changeLevel(MainMenu.class);
         }
         if (pause) {
-            if (e.getKeyCode() == KeyEvent.VK_ESCAPE)
+            if (e.getKeyCode() == KeyEvent.VK_ESCAPE){
                 pause = false;
+                infoPanel.togglePauseMsg();
+            }
         } else if (!board.needBricks()) {
             switch (e.getKeyCode()) {
                 case KeyEvent.VK_LEFT:
@@ -127,6 +131,7 @@ public class Game extends Level {
                     break;
                 case KeyEvent.VK_ESCAPE:
                     pause = true;
+                    infoPanel.togglePauseMsg();
                     break;
             }
         }

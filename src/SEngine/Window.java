@@ -3,10 +3,6 @@ package SEngine;
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Klasa Window odpowiedzialna jest za utworzenie okna aplikacji.
- **/
-
 public class Window extends JFrame {
     public Window(int width, int height, String title) {
         setTitle(title);

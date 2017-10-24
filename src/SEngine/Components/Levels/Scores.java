@@ -11,29 +11,14 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/**
- * Klasa Scores jest odpowiedzialna za wyświetlenie Loga oraz wyników jakie uzyskał gracz.
- * Posiada prywatną metodę loadScores, która ładuje dane do wyświetlenia przy pomocy FileHelper'a.
- */
-
 public class Scores extends Level {
-//    private class Score{
-//        public String playerName;
-//        public int bricks;
-//        public int score;
-//
-//        public Score(String playerName, int bricks, int score){
-//            this.playerName = playerName;
-//            this.bricks = bricks;
-//            this.score = score;
-//        }
-//    }
 
-    private ScoreItems scoreItem = new ScoreItems(200, 200);
+    private ScoreItems scoreItem;
 
     public Scores() {
         super();
         add(new Logo(164, 50, true));
+        scoreItem = new ScoreItems(0, 200);
         add(scoreItem);
         loadScores();
     }

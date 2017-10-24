@@ -1,11 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="untitled1:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/SEngine/SEngine.java" />
     <bookmark url="file://$PROJECT_DIR$/src/SEngine/Components/Levels/MainMenu.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96e66882-cc5f-4904-b56a-089f5efaebaf" name="Default" comment="" />
+    <list default="true" id="96e66882-cc5f-4904-b56a-089f5efaebaf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/untitled1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Levels/Scores$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Interfaces/Interactable.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/board/board0.png" afterPath="$PROJECT_DIR$/res/board/board0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/board/board1.png" afterPath="$PROJECT_DIR$/res/board/board1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/board/board2.png" afterPath="$PROJECT_DIR$/res/board/board2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/board/board3.png" afterPath="$PROJECT_DIR$/res/board/board3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/board/board4.png" afterPath="$PROJECT_DIR$/res/board/board4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/board/board5.png" afterPath="$PROJECT_DIR$/res/board/board5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/board/board6.png" afterPath="$PROJECT_DIR$/res/board/board6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/board/board7.png" afterPath="$PROJECT_DIR$/res/board/board7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bricks/b_0.png" afterPath="$PROJECT_DIR$/res/bricks/b_0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bricks/b_1.png" afterPath="$PROJECT_DIR$/res/bricks/b_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bricks/b_2.png" afterPath="$PROJECT_DIR$/res/bricks/b_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bricks/b_3.png" afterPath="$PROJECT_DIR$/res/bricks/b_3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bricks/b_4.png" afterPath="$PROJECT_DIR$/res/bricks/b_4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bricks/b_5.png" afterPath="$PROJECT_DIR$/res/bricks/b_5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bricks/b_6.png" afterPath="$PROJECT_DIR$/res/bricks/b_6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/font/xolonium.ttf" afterPath="$PROJECT_DIR$/res/font/xolonium.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/0.png" afterPath="$PROJECT_DIR$/res/logo/0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/1.png" afterPath="$PROJECT_DIR$/res/logo/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/2.png" afterPath="$PROJECT_DIR$/res/logo/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/3.png" afterPath="$PROJECT_DIR$/res/logo/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/4.png" afterPath="$PROJECT_DIR$/res/logo/4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/5.png" afterPath="$PROJECT_DIR$/res/logo/5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/6.png" afterPath="$PROJECT_DIR$/res/logo/6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/7.png" afterPath="$PROJECT_DIR$/res/logo/7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/8.png" afterPath="$PROJECT_DIR$/res/logo/8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/Main.class" afterPath="$PROJECT_DIR$/out/production/untitled1/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Animations/BrickAnimation.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Animations/BrickAnimation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Animations/EndGameAnimation.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Animations/EndGameAnimation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Board$1.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Board$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Board$BoardColor.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Board$BoardColor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Board$MoveDirection.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Board$MoveDirection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Board$RemoveBricksInfo.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Board$RemoveBricksInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Board.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Board.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Brick$BrickColor.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Brick$BrickColor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Brick.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Brick.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/InfoPanel.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/InfoPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Levels/Game.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Levels/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Levels/MainMenu.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Levels/MainMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Levels/Scores.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Levels/Scores.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Logo$LogoColor.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Logo$LogoColor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Logo.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/Logo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/NextBrickGroup.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Components/NextBrickGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/LevelManager.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/LevelManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/SEngine.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/SEngine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Types/Actor.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Types/Actor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Types/Animation.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Types/Animation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Types/ImagePanel.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Types/ImagePanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Types/MenuContainer.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Types/MenuContainer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Types/MenuElement.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Types/MenuElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Utils/FileHelper.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Utils/FileHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/SEngine/Window.class" afterPath="$PROJECT_DIR$/out/production/untitled1/SEngine/Window.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/score.txt" afterPath="$PROJECT_DIR$/score.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Components/Animations/BrickAnimation.java" afterPath="$PROJECT_DIR$/src/SEngine/Components/Animations/BrickAnimation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Components/Animations/EndGameAnimation.java" afterPath="$PROJECT_DIR$/src/SEngine/Components/Animations/EndGameAnimation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Components/Board.java" afterPath="$PROJECT_DIR$/src/SEngine/Components/Board.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Components/Brick.java" afterPath="$PROJECT_DIR$/src/SEngine/Components/Brick.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Components/InfoPanel.java" afterPath="$PROJECT_DIR$/src/SEngine/Components/InfoPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Components/Levels/Game.java" afterPath="$PROJECT_DIR$/src/SEngine/Components/Levels/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Components/Levels/MainMenu.java" afterPath="$PROJECT_DIR$/src/SEngine/Components/Levels/MainMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Components/Levels/Scores.java" afterPath="$PROJECT_DIR$/src/SEngine/Components/Levels/Scores.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Components/Logo.java" afterPath="$PROJECT_DIR$/src/SEngine/Components/Logo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Components/NextBrickGroup.java" afterPath="$PROJECT_DIR$/src/SEngine/Components/NextBrickGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Components/ScoreItems.java" afterPath="$PROJECT_DIR$/src/SEngine/Components/ScoreItems.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Interfaces/Tickable.java" afterPath="$PROJECT_DIR$/src/SEngine/Interfaces/Tickable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/LevelManager.java" afterPath="$PROJECT_DIR$/src/SEngine/LevelManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/SEngine.java" afterPath="$PROJECT_DIR$/src/SEngine/SEngine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Types/Actor.java" afterPath="$PROJECT_DIR$/src/SEngine/Types/Actor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Types/Animation.java" afterPath="$PROJECT_DIR$/src/SEngine/Types/Animation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Types/ImagePanel.java" afterPath="$PROJECT_DIR$/src/SEngine/Types/ImagePanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Types/Level.java" afterPath="$PROJECT_DIR$/src/SEngine/Types/Level.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Types/MenuContainer.java" afterPath="$PROJECT_DIR$/src/SEngine/Types/MenuContainer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Types/MenuElement.java" afterPath="$PROJECT_DIR$/src/SEngine/Types/MenuElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Utils/FileHelper.java" afterPath="$PROJECT_DIR$/src/SEngine/Utils/FileHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SEngine/Window.java" afterPath="$PROJECT_DIR$/src/SEngine/Window.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled1.iml" afterPath="$PROJECT_DIR$/untitled1.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,21 +107,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Board.java">
+      <file leaf-file-name="MenuContainer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SEngine/Types/MenuContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6664">
-              <caret line="409" column="28" lean-forward="false" selection-start-line="409" selection-start-column="28" selection-end-line="409" selection-end-column="28" />
+            <state relative-caret-position="17">
+              <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Brick.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Brick.java">
+      <file leaf-file-name="MenuElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SEngine/Types/MenuElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+            <state relative-caret-position="34">
+              <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SEngine/Utils/FileHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Levels/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="133" column="47" lean-forward="false" selection-start-line="133" selection-start-column="47" selection-end-line="133" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfoPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SEngine/Components/InfoPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="75" column="38" lean-forward="false" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scores.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Levels/Scores.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScoreItems.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SEngine/Components/ScoreItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SEngine/Level.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Window.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SEngine/Window.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,11 +232,16 @@
       <find>endGame</find>
       <find>saves</find>
       <find>chang</find>
+      <find>isScoreSaved</find>
+      <find>/*</find>
     </findStrings>
     <replaceStrings>
       <replace>board/board</replace>
       <replace>)</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -92,29 +264,29 @@
         <option value="$PROJECT_DIR$/src/SEngine/FileUtils/FileHelper.java" />
         <option value="$PROJECT_DIR$/src/SEngine/Components/ScoreItem.java" />
         <option value="$PROJECT_DIR$/score.txt" />
-        <option value="$PROJECT_DIR$/src/SEngine/Utils/FileHelper.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Window.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/SEngine.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/LevelManager.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Interfaces/Tickable.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Components/Animations/BrickAnimation.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Components/Animations/EndGameAnimation.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Components/Levels/Game.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Components/Levels/MainMenu.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Components/Levels/Scores.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Components/ScoreItems.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Components/NextBrickGroup.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Components/Logo.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Components/InfoPanel.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Types/MenuContainer.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Types/MenuElement.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Types/Level.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Types/Actor.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Types/Animation.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Types/ImagePanel.java" />
-        <option value="$PROJECT_DIR$/src/SEngine/Components/Board.java" />
         <option value="$PROJECT_DIR$/src/SEngine/Components/Brick.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Components/Board.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Types/Actor.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Types/ImagePanel.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Components/Logo.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Components/NextBrickGroup.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Components/Levels/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Components/Animations/EndGameAnimation.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Components/Animations/BrickAnimation.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Interfaces/Tickable.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Types/Animation.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Types/Level.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Types/MenuContainer.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Types/MenuElement.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/LevelManager.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/SEngine.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Window.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Components/Levels/Game.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Components/InfoPanel.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Components/ScoreItems.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Components/Levels/Scores.java" />
+        <option value="$PROJECT_DIR$/src/SEngine/Utils/FileHelper.java" />
       </list>
     </option>
   </component>
@@ -145,25 +317,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1_2" />
+              <option name="myItemId" value="MagicJewelry-Java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1_2" />
+              <option name="myItemId" value="MagicJewelry-Java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1_2" />
+              <option name="myItemId" value="MagicJewelry-Java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1_2" />
+              <option name="myItemId" value="MagicJewelry-Java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -173,11 +346,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1_2" />
+              <option name="myItemId" value="MagicJewelry-Java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1_2" />
+              <option name="myItemId" value="MagicJewelry-Java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -191,11 +364,33 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1_2" />
+              <option name="myItemId" value="MagicJewelry-Java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1_2" />
+              <option name="myItemId" value="MagicJewelry-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicJewelry-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicJewelry-Java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -213,11 +408,33 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1_2" />
+              <option name="myItemId" value="MagicJewelry-Java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1_2" />
+              <option name="myItemId" value="MagicJewelry-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicJewelry-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicJewelry-Java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -233,23 +450,89 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicJewelry-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicJewelry-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Levels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicJewelry-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicJewelry-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Animations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicJewelry-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicJewelry-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="SearchEverywhereHistoryKey" value="sen&#9;FILE&#9;file://C:/Users/Kuba/IdeaProjects/untitled1/src/SEngine/SEngine.java&#10;logo&#9;FILE&#9;file://C:/Users/Kuba/IdeaProjects/untitled1/src/SEngine/Components/Logo.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/res" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -261,6 +544,7 @@
       <recent name="SEngine" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kuba\IdeaProjects\MagicJewelry-Java\res" />
       <recent name="C:\Users\Kuba\IdeaProjects\untitled1\font" />
       <recent name="C:\Users\Kuba\IdeaProjects\untitled1" />
     </key>
@@ -543,34 +827,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4976744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16459627" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16398244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20204978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43255815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57298136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32713178" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -583,7 +868,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="129" />
+      <option name="time" value="134" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -603,8 +888,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/JPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/MessageBox.java" />
     <entry file="file://$PROJECT_DIR$/../untitled1/src/SEngine/Components/Brick.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/javax/swing/JComponent.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/io/FileWriter.java" />
@@ -613,77 +896,77 @@
     <entry file="file://$PROJECT_DIR$/checkbook.txt" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/Container.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/logo/2.png">
+    <entry file="file://$PROJECT_DIR$/res/logo/2.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logo/5.png">
+    <entry file="file://$PROJECT_DIR$/res/logo/5.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logo/7.png">
+    <entry file="file://$PROJECT_DIR$/res/logo/7.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logo/8.png">
+    <entry file="file://$PROJECT_DIR$/res/logo/8.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logo/0.png">
+    <entry file="file://$PROJECT_DIR$/res/logo/0.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logo/1.png">
+    <entry file="file://$PROJECT_DIR$/res/logo/1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/board/board0.png">
+    <entry file="file://$PROJECT_DIR$/res/board/board0.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/board/board1.png">
+    <entry file="file://$PROJECT_DIR$/res/board/board1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/board/board2.png">
+    <entry file="file://$PROJECT_DIR$/res/board/board2.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricks/b_5.png">
+    <entry file="file://$PROJECT_DIR$/res/bricks/b_5.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricks/b_6.png">
+    <entry file="file://$PROJECT_DIR$/res/bricks/b_6.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricks/b_4.png">
+    <entry file="file://$PROJECT_DIR$/res/bricks/b_4.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricks/b_0.png">
+    <entry file="file://$PROJECT_DIR$/res/bricks/b_0.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricks/b_1.png">
+    <entry file="file://$PROJECT_DIR$/res/bricks/b_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricks/b_2.png">
+    <entry file="file://$PROJECT_DIR$/res/bricks/b_2.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -696,160 +979,209 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SEngine/Interfaces/Interactable.java" />
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Interfaces/Tickable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java" />
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/Level.java" />
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/MenuElement.java">
+    <entry file="file://$PROJECT_DIR$/out/production/untitled1/Main.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/MenuContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="8" column="109" lean-forward="false" selection-start-line="8" selection-start-column="109" selection-end-line="8" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/Actor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Utils/FileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/SEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/LevelManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/ScoreItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="8" column="106" lean-forward="false" selection-start-line="8" selection-start-column="106" selection-end-line="8" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/NextBrickGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="7" column="114" lean-forward="false" selection-start-line="7" selection-start-column="114" selection-end-line="7" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Logo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/InfoPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Levels/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="11" column="95" lean-forward="false" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Levels/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Levels/Scores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Animations/BrickAnimation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Animations/EndGameAnimation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="70" lean-forward="false" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/ImagePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="11" column="81" lean-forward="false" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+        <state relative-caret-position="119">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6664">
-          <caret line="409" column="28" lean-forward="false" selection-start-line="409" selection-start-column="28" selection-end-line="409" selection-end-column="28" />
+        <state relative-caret-position="34">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Brick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/ImagePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Logo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/NextBrickGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Levels/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Animations/EndGameAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Animations/BrickAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#403#404#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Interfaces/Tickable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/LevelManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/SEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/MenuContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Types/MenuElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Levels/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="133" column="47" lean-forward="false" selection-start-line="133" selection-start-column="47" selection-end-line="133" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/InfoPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="75" column="38" lean-forward="false" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/ScoreItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Components/Levels/Scores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEngine/Utils/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -859,11 +1191,17 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>untitled1:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -3,10 +3,6 @@ package SEngine.Components;
 import SEngine.Types.Actor;
 import SEngine.Types.ImagePanel;
 
-/**
- * Klasa Brick jest klockiem, posiada zarządzanie wyglądem i pozycją.
- */
-
 public class Brick extends Actor {
     public enum BrickColor {
         Special(0),
@@ -59,11 +55,6 @@ public class Brick extends Actor {
         add(sprites[color.value()]);
     }
 
-    /**
-     * Changes the board color
-     *
-     * @param color Color to apply
-     */
     public boolean changeColor(BrickColor color) {
         this.color = color;
         repaint();
@@ -74,22 +65,11 @@ public class Brick extends Actor {
         this(0, 0, color);
     }
 
-    /**
-     * Translate board position to pixel representation
-     *
-     * @param x X axis position
-     * @param y y axis position
-     */
     public void setBrickPosition(int x, int y) {
         setLocation(x * BRICK_WIDTH + Board.BOARD_OFFSET_X, (Board.BRICKS_IN_COL - 1) * BRICK_HEIGHT - y * BRICK_HEIGHT + Board.BOARD_OFFSET_Y);
         setVisible(y <= 14);
     }
 
-    /**
-     * Gets the brick color
-     *
-     * @return Brick color
-     */
     public BrickColor getColor() {
         return color;
     }

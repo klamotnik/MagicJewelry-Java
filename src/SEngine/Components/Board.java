@@ -9,11 +9,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-/**
- * Klasa Board jest planszą na której użytkownik gra.
- * Posiada metody związane z zarządzaniem klockami.
- */
-
 public class Board extends Actor {
     public class RemoveBricksInfo {
         public RemoveBricksInfo(int removedBricks, int combo) {
@@ -121,20 +116,12 @@ public class Board extends Actor {
         super.tick(deltaTime);
     }
 
-    /**
-     * Generates remove bricks info
-     *
-     * @return Set of info about removing bricks action (amount of bricks, combo)
-     */
     public RemoveBricksInfo getRemoveBricksInfo() {
         RemoveBricksInfo info = new RemoveBricksInfo(canDeliverRemoveBricksInfo ? countBricksToRemove() : 0, canDeliverRemoveBricksInfo ? combo : 0);
         canDeliverRemoveBricksInfo = false;
         return info;
     }
 
-    /**
-     * Removes bricks to remove
-     */
     private void removeBricks() {
         for (int x = 0; x < BRICKS_IN_ROW; x++)
             for (int y = 0; y < BRICKS_IN_COL; y++)
@@ -146,9 +133,6 @@ public class Board extends Actor {
         repaint();
     }
 
-    /**
-     * Moves bricks down to fill gaps after removing bricks
-     */
     private void fallBricks() {
         for (int x = 0; x < BRICKS_IN_ROW; x++) {
             int gap = 0;
@@ -164,9 +148,6 @@ public class Board extends Actor {
         }
     }
 
-    /**
-     * Swaps positions of active bricks
-     */
     public void swapBricks() {
         int tmpX = getBrickX(activeBricks[0].getX());
         int tmpY = getBrickY(activeBricks[0].getY());
@@ -180,11 +161,6 @@ public class Board extends Actor {
         repaint();
     }
 
-    /**
-     * Moves active bricks
-     *
-     * @param direction direction of the movement
-     */
     public void moveBricks(MoveDirection direction) {
         if (direction == MoveDirection.Down)
             timeFromLastFalling = 0;
@@ -199,11 +175,6 @@ public class Board extends Actor {
             bricksAction();
     }
 
-    /**
-     * Checks the possibility of movement
-     *
-     * @return False when can't move, otherwise returns true
-     */
     private boolean canMove(MoveDirection direction) {
         int activeBricksX = getBrickX(activeBricks[0].getX());
         int activeBricksY = getBrickY(activeBricks[0].getY());
@@ -218,9 +189,6 @@ public class Board extends Actor {
         return false;
     }
 
-    /**
-     * Perform action of applying bricks
-     */
     private void bricksAction() {
         boolean special = activeBricks != null && activeBricks[0].getColor() == Brick.BrickColor.Special;
         applyBricks();
@@ -241,11 +209,6 @@ public class Board extends Actor {
         }
     }
 
-    /**
-     * Checks overflow of the board
-     *
-     * @return If the board is overflowed, returns true, otherwise returns false
-     */
     public boolean isBoardOverflowed() {
         if (bricks[3][BRICKS_IN_COL - 1] != null)
             return true;
@@ -255,11 +218,6 @@ public class Board extends Actor {
         return false;
     }
 
-    /**
-     * Counts the bricks to remove
-     *
-     * @return Amount of bricks to remove
-     */
     private Collection<Brick> getBricksToRemove() {
         List<Brick> bricksToRemove = new ArrayList<>(this.bricksToRemove);
         for (int x = 0; x < BRICKS_IN_ROW; x++)
@@ -269,11 +227,6 @@ public class Board extends Actor {
         return bricksToRemove;
     }
 
-    /**
-     * Counts the bricks to remove
-     *
-     * @return Amount of bricks to remove
-     */
     private int countBricksToRemove() {
         int bricksToRemove = 0;
         for (int i = 0; i < BRICKS_IN_ROW; i++)
@@ -283,11 +236,6 @@ public class Board extends Actor {
         return bricksToRemove;
     }
 
-    /**
-     * Get color of bricks to remove
-     *
-     * @return Color of bricks to remove
-     */
     public Brick.BrickColor getDemandColor() {
         for (int i = 0; i < BRICKS_IN_ROW; i++)
             for (int j = 0; j < BRICKS_IN_COL; j++)
@@ -299,12 +247,6 @@ public class Board extends Actor {
         return Brick.BrickColor.Special;
     }
 
-    /**
-     * Marks bricks to remove
-     *
-     * @param special special bricks was used
-     * @return Amount of bricks to remove
-     */
     private int markBricksToRemove(boolean special) {
         if (special) {
             Brick.BrickColor demandColor = getDemandColor();
@@ -338,9 +280,6 @@ public class Board extends Actor {
         return countBricksToRemove();
     }
 
-    /**
-     * Applies active bricks on board
-     */
     private void applyBricks() {
         if (activeBricks == null)
             return;
@@ -351,61 +290,31 @@ public class Board extends Actor {
         activeBricks = null;
     }
 
-    /**
-     * Changes the board color
-     *
-     * @param color - Color to apply
-     */
     public void changeColor(BoardColor color) {
         remove(getComponentCount() - 1);
         add(sprites[color.value()], getComponentCount());
         repaint();
     }
 
-    /**
-     * Sets the automatic falling brick interval
-     *
-     * @param interval - Time in milliseconds
-     */
-    public void setFallingSpeed(int interval) {
-        fallingSpeed = interval;
+    public void setFallingSpeed(int milliseconds) {
+        fallingSpeed = milliseconds;
     }
 
-    /**
-     * Inform that board need bricks to continue game
-     *
-     * @return Information that board needs new bricks
-     */
     public boolean needBricks() {
         return needBricks;
     }
 
-    /**
-     * Check current pending animation on board
-     *
-     * @return When any pending animation exists, returns true, otherwise returns false
-     */
     public boolean pendingAnyAnimation() {
         return (brickAnimation != null && brickAnimation.isPending()) || (endGameAnimation != null && endGameAnimation.isPending());
     }
 
-    /**
-     * Check end game state
-     *
-     * @return When the game is ended, returns true, otherwise returns false
-     */
     public boolean isGameEnded() {
         return endGame;
     }
 
-    /**
-     * Gets bricks to play
-     *
-     * @param bricks obtained bricks
-     */
     public void obtainBricks(Brick[] bricks) {
         activeBricks = bricks;
-        //ustawienie pozycji
+
         for (int i = 0; i < 3; ++i) {
             bricks[i].setBrickPosition(3, 14 + i);
             add(bricks[i], 0);
@@ -414,22 +323,10 @@ public class Board extends Actor {
         repaint();
     }
 
-    /**
-     * Translate pixel X axis position to board X axis position
-     *
-     * @param x X position
-     * @return Position on board
-     */
     public int getBrickX(int x) {
         return Math.round((x - BOARD_OFFSET_X) / Brick.BRICK_WIDTH);
     }
 
-    /**
-     * Translate pixel Y axis position to board Y axis position
-     *
-     * @param y Y position
-     * @return Position on board
-     */
     public int getBrickY(int y) {
         return 14 - Math.round((y - BOARD_OFFSET_Y) / Brick.BRICK_HEIGHT);
     }

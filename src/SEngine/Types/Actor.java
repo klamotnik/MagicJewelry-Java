@@ -7,12 +7,6 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-/**
- * Klasa Actor jest jednym z podstawowych "rozszerzeń" obiektów w aplikacji.
- * Actor'zy wyświetlani są na Level'u.
- * Na Level'u można wyświetlić wielu Actor'ów.
- */
-
 public abstract class Actor extends JPanel implements Tickable, KeyListener {
     protected Actor(int x, int y) {
         setBackground(Color.black);
